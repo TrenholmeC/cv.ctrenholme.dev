@@ -1,0 +1,24 @@
+h1 {
+	display: inline-block;
+	width: fit-content;
+}
+
+#links {
+	float: right;
+	display: flex;
+	gap: 15px;
+	padding-left: 0;
+}
+
+#links li, .unstyled-list li {
+	list-style: none;
+}
+
+p {
+	text-indent: 4ch;
+}
+
+footer p {
+	font-size: 75%;
+	color: grey;
+}
